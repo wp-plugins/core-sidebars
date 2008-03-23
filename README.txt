@@ -22,7 +22,7 @@ A plugin that enables you to have dedicated content and/or widget sidebar for ea
 
 4. To include the data in the function, delete everything inside your sidebar.php except for your style container. Now, using add this PHP code by customizing it to your needs.
 
-<pre>
+`
 <?php
 $sboptions = array(
      'order' => 'title-content-widgets', 
@@ -32,7 +32,7 @@ $sboptions = array(
      'after_content' => '</div>'); 
 coresidebar($sboptions);
 ?>
-</pre>
+`
 
 
 == Widget Support ==
